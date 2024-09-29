@@ -83,6 +83,16 @@ body {
     flex: 1;
 }
 
+.hero-text button {
+    background-color: #3882F6;
+    padding: 8px 32px;
+    color: inherit;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
 .flex {
     display: flex;
 }
