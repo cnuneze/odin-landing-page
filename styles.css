@@ -9,10 +9,6 @@ body {
     height: 100vh;
 }
 
-.container div {
-    flex: 1;
-}
-
 .header {
     display: flex;
     flex-direction: column;
@@ -43,6 +39,37 @@ body {
     gap: 16px;
 }
 
+.hero {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    padding: 80px 0px;
+    gap: 10px;
+}
+
+.hero-text,
+.hero-image {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-image {
+    align-self: stretch;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .quote {
     background-color: #E5E7EB;
 }
@@ -54,4 +81,8 @@ body {
 .header-links a {
     color: inherit;
     text-decoration: none;
+}
+
+.container > div {
+    flex: 1;
 }
