@@ -1,3 +1,26 @@
 body {
     font-family: Roboto, monospace;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container div {
+    flex: 1;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.footer {
+    background-color: #1F2937;
 }
