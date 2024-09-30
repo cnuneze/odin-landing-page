@@ -7,7 +7,6 @@ body {
 
 .container {
     flex-direction: column;
-    height: 100vh;
 }
 
 .header {
@@ -66,21 +65,53 @@ body {
     align-items: center;
 }
 
+.info {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.info h2 {
+    margin: 40px 0px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info-cards {
+    width: 900px;
+    gap: 40px;
+}
+
+.card-image {
+    border: #3882F6 solid 5px;
+    border-radius: 20px;
+    min-height: 180px;
+}
+
+.card-text {
+    font-size: 18px;
+    color: #808080;
+    text-align: center;
+}
+
 .quote {
+    height: 20px;
     background-color: #E5E7EB;
 }
 
+.call-action {
+    height: 20px;
+}
+
 .footer {
+    height: 20px;
     background-color: #1F2937;
 }
 
 .header-links a {
     color: inherit;
     text-decoration: none;
-}
-
-.container > div {
-    flex: 1;
 }
 
 .hero-text button {
