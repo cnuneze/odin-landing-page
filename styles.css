@@ -96,8 +96,29 @@ body {
 }
 
 .quote {
-    height: 20px;
     background-color: #E5E7EB;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.quote-content {
+    width: 800px;
+    color: #1F2937;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0px;
+}
+
+.quote-author {
+    text-align: end;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0px;
 }
 
 .call-action {
