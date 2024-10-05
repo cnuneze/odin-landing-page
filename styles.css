@@ -139,11 +139,21 @@ body {
 }
 
 .action {
-    width: 1000px;
+    width: 1400px;
     background-color: #3882F6;
-    padding: 24px 60px;
+    padding: 48px 90px;
     justify-content: space-between;
     border-radius: 10px;
+}
+
+.action-text h3 {
+    margin: 0px;
+    font-size: 24px;
+}
+
+.action-text p {
+    margin: 0px;
+    font-size: 18px;
 }
 
 .action button {
@@ -152,7 +162,7 @@ body {
     padding: 8px 32px;
     color: inherit;
     border-radius: 8px;
-    border: 5px solid #F9FAF8;
+    border: 3px solid #F9FAF8;
     font-size: 18px;
     font-weight: 600;
 }
